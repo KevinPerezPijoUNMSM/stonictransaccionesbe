@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace stonictransaccionesbe.model
 {
-    public class Class1
+    public class Transaccion
     {
     }
 }
