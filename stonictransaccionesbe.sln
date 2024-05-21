@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stonictransaccionesbe", "stonictransaccionesbe\stonictransaccionesbe.csproj", "{58444E25-72E9-48C4-8919-99EAA1BA6416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stonictransaccionesbe.model", "stonictransaccionesbe.model\stonictransaccionesbe.model.csproj", "{CA96D29C-B221-4717-8EB2-D883867A874C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58444E25-72E9-48C4-8919-99EAA1BA6416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58444E25-72E9-48C4-8919-99EAA1BA6416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58444E25-72E9-48C4-8919-99EAA1BA6416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58444E25-72E9-48C4-8919-99EAA1BA6416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA96D29C-B221-4717-8EB2-D883867A874C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA96D29C-B221-4717-8EB2-D883867A874C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA96D29C-B221-4717-8EB2-D883867A874C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA96D29C-B221-4717-8EB2-D883867A874C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB172FA3-2658-43D3-B193-EAC38E475970}
+	EndGlobalSection
+EndGlobal
