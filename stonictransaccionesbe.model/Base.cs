@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace stonictransaccionesbe.model
 {
-    public class Transaccion
+    public abstract class Base
     {
+        public DateTime AudFechaRegistro { get; set; }
+        public DateTime AudFechaModifico { get; set; }
     }
 }
