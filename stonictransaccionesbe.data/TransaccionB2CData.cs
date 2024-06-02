@@ -17,7 +17,7 @@ namespace stonictransaccionesbe.data
 
             try
             {
-                using (var cnn = new NpgsqlConnection(HelpData.ConnectionString))
+                using (var cnn = new NpgsqlConnection(HelpData.ConnectionString()))
                 {
                     using (var cmd = new NpgsqlCommand("tra_man_transaccionb2c_ins", cnn))
                     {

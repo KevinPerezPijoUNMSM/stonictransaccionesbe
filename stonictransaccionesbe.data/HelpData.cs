@@ -20,18 +20,23 @@ namespace stonictransaccionesbe.data
                 .Build();
         }
 
-        internal static string ConnectionString
+        internal static string ConnectionString()
         {
-            get
-            {
-                return Configuration.GetConnectionString("DefaultConnection");
-            }
+            return Configuration.GetSection("connectionStrings:ConnectionString").Value;
         }
 
-        public static NpgsqlConnection GetConnection()
-        {
-            return new NpgsqlConnection(ConnectionString);
-        }
+        //internal static string ConnectionString
+        //{
+        //    get
+        //    {
+        //        return Configuration.GetConnectionString("ConnectionString");
+        //    }
+        //}
+
+        //public static NpgsqlConnection GetConnection()
+        //{
+        //    return new NpgsqlConnection(ConnectionString);
+        //}
 
         internal static NpgsqlParameter NpgsqlParameter(string name, NpgsqlTypes.NpgsqlDbType type, object valor, int size = 0)
         {
